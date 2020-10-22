@@ -1,0 +1,20 @@
+{
+  "title": "Oil Paint Dog",
+  "category": "Design",
+  "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour lebmid",
+  "previewImages": [
+    "portfolio-1.jpg",
+    "portfolio-2.jpg"
+  ],
+  "meta": {
+    "client": "Jerry Wilson",
+    "date": "01/05/2020",
+    "website": "https://hasthemes.com",
+    "services": [
+      "Design",
+      "Branding",
+      "Web",
+      "Photography"
+    ]
+  }
+}
