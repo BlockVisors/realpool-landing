@@ -6,10 +6,12 @@ import greenBg from '../../assets/images/hero/green-bg.png';
 import SectionTitle from "../../components/SectionTitle";
 import Service from "../../components/service";
 import services from '../../data/service'
+import personalInfo from '../../data/PersonalInfo'
+
 
 const PersonalPortfolioService = () => {
     return (
-        <div className="bg-grey section service-bg" style={{backgroundImage: `url(${greenBg})`}}>
+        <div className="bg-grey section service-bg" id="top-money4" style={{backgroundImage: `url(${greenBg})`}}>
             <div className="section-wrap section pt-120 pt-lg-80 pt-md-80 pt-sm-80 pt-xs-50 pb-120 pb-lg-80 pb-md-80 pb-sm-80 pb-xs-50">
                 <Container>
                     <Row>
@@ -31,6 +33,13 @@ const PersonalPortfolioService = () => {
                             </Col>
                         ))}
                     </Row>
+                    <div>
+                    <Row>
+                    <Col>
+                   <a href={`${process.env.PUBLIC_URL + personalInfo.resumeURL}`}>See WhitePaper</a>
+                    </Col>
+                </Row>
+                </div>
                 </Container>
             </div>
         </div>

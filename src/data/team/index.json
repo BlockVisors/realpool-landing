@@ -1,9 +1,9 @@
 [
   {
     "id": 1,
-    "name": "LEBMID JONSON",
-    "designation": "Senior Developer",
-    "profilePhoto": "team-1.jpg",
+    "name": "DAMEON GREEN",
+    "designation": "CEO - CO-FOUNDER",
+    "profilePhoto": "dg.jpg",
     "socials": [
       {
         "id": 1,
@@ -17,16 +17,16 @@
       },
       {
         "id": 3,
-        "media": "dribbble",
+        "media": "linkedin",
         "username": "hastech"
       }
     ]
   },
   {
     "id": 2,
-    "name": "Raju Ahammad",
-    "designation": "HTML Coder",
-    "profilePhoto": "team-2.jpg",
+    "name": "SYED ASIF PARVEEZ",
+    "designation": "COO - CO-FOUNDER",
+    "profilePhoto": "sap.jpeg",
     "socials": [
       {
         "id": 1,

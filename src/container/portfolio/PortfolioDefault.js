@@ -63,14 +63,16 @@ let PortfolioDefault = (props, ref) => {
     };
 
     return (
-        <div className="content-body section" style={{backgroundImage: `url(${greenBg})`}}>
+        // <div className="content-body section" style={{backgroundImage: `url(${greenBg})`}}>
+
+        <div className="content-body section">
             <div className="section-wrap section" id="top-money">
                 <Container fluid>
                 <Row>
                     <Col>
                         <SectionTitle
                             title={'5 Ways to Make Money'}
-                            content={'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla, aliquam.'}
+                            content={'Earn Comp and BAL by staking your DAI in a RealPool™. Earn REALP from staking liquidity or your original REALP. Also, Earn RPY from staking your NFT Option from participating in a RealPool™.'}
                         />
                     </Col>
                 </Row>

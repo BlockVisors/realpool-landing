@@ -3,16 +3,19 @@ import {Container, Row, Col} from 'react-bootstrap'
 import SectionTitle from "../../components/SectionTitle";
 import Team from "../../components/team";
 import teams from '../../data/team'
+import pinkBg from '../../assets/images/hero/pink-bg.png';
+
+
 
 const PersonalPortfolioTeam = () => {
     return (
-        <div className="section pt-120 pt-lg-80 pt-md-80 pt-sm-80 pt-xs-50 pb-120 pb-lg-80 pb-md-80 pb-sm-80 pb-xs-50">
+        <div className="section pt-120 pt-lg-80 pt-md-80 pt-sm-80 pt-xs-50 pb-120 pb-lg-80 pb-md-80 pb-sm-80 pb-xs-50" style={{backgroundImage: `url(${pinkBg})`}}>
             <div className="section-wrap section">
                 <Container>
                     <Row>
                         <Col>
                             <SectionTitle
-                                title={'RealPool Team'}
+                                title={'RealPool™ Team'}
                                 content={'Meet Our Team.'}
                             />
                         </Col>
