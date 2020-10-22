@@ -18,6 +18,8 @@ import Footer from "../../components/footer/FooterThree";
 import TokenEcosystem from "../../components/HeroBanner/TokenEcosystem";
 // import Faq from "react-faq-component";
 import FAQ from "../../components/faq";
+import SectionTitle from '../../components/SectionTitle';
+
 
 
 
@@ -91,8 +93,18 @@ const RPHome = () => {
             <PersonalPortfolioTeam/>
         
             {/* <Faq data={data} styles={styles} config={config} /> */}
-            <div id="faq1">
+            <div className="section-wrap section">
                 <Container>
+                <div id="faq-title">
+                <Row>
+                    <Col>
+                    <SectionTitle
+                    title={"Faq"}
+                    content={"Frequently Asked Questions"}
+                     />
+                     </Col>
+                </Row>
+             </div>
             <FAQ>
                 <FAQ.QAItem>
                 <FAQ.Question answerId="q1">
