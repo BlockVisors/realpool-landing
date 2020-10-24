@@ -37,7 +37,10 @@ const PersonalPortfolio = () => {
                 <div>
                 <Row>
                     <Col>
+                    <div className="main-slider-content">
+
                    <a href={`${process.env.PUBLIC_URL + personalInfo.resumeURL}`}>See More Pools</a>
+                    </div>
                     </Col>
                 </Row>
                 </div>

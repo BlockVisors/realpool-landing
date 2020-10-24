@@ -18,7 +18,7 @@ const PersonalPortfolioService = () => {
                         <Col>
                             <SectionTitle
                                 title={"How it Works"}
-                                content={"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla, aliquam."}
+                                content={"RealPool™ is simple...but there are a few steps to the process..See Below"}
                             />
                         </Col>
                     </Row>
@@ -36,7 +36,10 @@ const PersonalPortfolioService = () => {
                     <div>
                     <Row>
                     <Col>
+                    <div className="main-slider-content">
+
                    <a href={`${process.env.PUBLIC_URL + personalInfo.resumeURL}`}>See WhitePaper</a>
+                   </div>
                     </Col>
                 </Row>
                 </div>

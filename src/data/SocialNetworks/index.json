@@ -1,31 +1,26 @@
 [
   {
     "id": 1,
-    "media": "facebook",
-    "username": "hasthemes"
-  },
-  {
-    "id": 2,
     "media": "twitter",
     "username": "realpool"
   },
   {
-    "id": 3,
+    "id": 2,
     "media": "github",
     "username": "realpool"
   },
   {
-    "id": 4,
+    "id": 3,
     "media": "medium",
     "username": "hasthemes"
   },
   {
-    "id": 5,
+    "id": 4,
     "media": "instagram",
     "username": "hasthemes"
   },
   {
-    "id": 6,
+    "id": 5,
     "media": "linkedin",
     "username": "hastech"
   }

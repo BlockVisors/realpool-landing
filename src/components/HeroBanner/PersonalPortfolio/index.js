@@ -11,9 +11,9 @@ const BannerPersonalPortfolio = () => {
     return (
         <HeroBannerContainer bg={Bg3} overlay={false}>
             <div className="main-slider-content">
-                <h2>RealPool™....DeFi + Real World Real Estate</h2>
-                <h3>{personalInfo.name}</h3>
-                <h5>{personalInfo.designation}</h5>
+                <h2 id="head1">RealPool™....DeFi + Real World Real Estate</h2>
+                <h3 id="sub">{personalInfo.name}</h3>
+                <h4 id="desc">{personalInfo.designation}</h4>
                 <a href={`${process.env.PUBLIC_URL + personalInfo.resumeURL}`}>learn more</a>
             </div>
         </HeroBannerContainer>

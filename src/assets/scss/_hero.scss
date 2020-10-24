@@ -148,10 +148,11 @@
     & a {
         font-size: 26px;
         line-height: 1.05;
-        color: $heading-color;
+        // color: $heading-color;
         border-bottom: 2px solid $heading-color;
         position: relative;
         margin-top: 40px;
+        color: rgb(65, 146, 115);
 
         &::before {
             content: "";
