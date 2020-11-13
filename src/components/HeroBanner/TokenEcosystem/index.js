@@ -41,7 +41,7 @@ const TokenEcosystem = () => {
                     <h5>REALP is the on platform reward for staking. It is to obtained staking REALP brought elsewhere on our site or
                     by staking REALP and ETH as a pair on UniSwap. Available in sale and uniswap
                     </h5>
-                    <div>
+                    <div className="learn">
                     <a href={`${process.env.PUBLIC_URL + tokenInfo.resumeURL}`}>learn more</a>
                     </div>
                 </Row>
@@ -53,7 +53,8 @@ const TokenEcosystem = () => {
                     RPY is the ultimate reward for using our ecosystem. It all comes full circle with staking of the property option.
                     Staking of the NFTs helps keep value because they are tradable and unique but less likely to be dumped.
                     </h5>
-                    <div>
+
+                    <div className="learn">
                      <a href={`${process.env.PUBLIC_URL + tokenInfo.resumeURL}`}>learn more</a>
                     </div>
             </Row>
@@ -65,7 +66,7 @@ const TokenEcosystem = () => {
                     Thesee are unique series NFT (Non-Fungible Tokens) awarded to those who participate in RealPools.These represent
                     future Limited partnership options in real estate invesment and development projects.
                     </h5>
-                    <div>
+                    <div className="learn">
                     <a href={`${process.env.PUBLIC_URL + tokenInfo.resumeURL}`}>learn more</a>
                     </div>
             </Row>

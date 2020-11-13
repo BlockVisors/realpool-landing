@@ -183,6 +183,13 @@
         "link": "/portfolio-details",
         "megaMenu": false,
         "subMenu": false
+      },
+       {
+        "id": 3.4,
+        "title": "REALP Sale",
+        "link": "/portfolio-details",
+        "megaMenu": false,
+        "subMenu": false
       }
     ]
   },

@@ -96,6 +96,7 @@ const RPHome = () => {
             <PersonalPortfolioTeam/>
         
             {/* <Faq data={data} styles={styles} config={config} /> */}
+            <Container>
             <div className="section-wrap section">
                 <Container>
                 <div id="faq-title">
@@ -244,6 +245,8 @@ const RPHome = () => {
       </FAQ>
       </Container>
       </div>
+            </Container>
+
             {/* <Contact/> */}
             <Footer position={'static'}/>
         </div>

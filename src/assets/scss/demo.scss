@@ -339,3 +339,16 @@
   margin-top: 20px;
   margin-bottom: 40px;
 }
+
+.learn {
+  & a {
+        font-size: 16px;
+        line-height: 1.05;
+        // color: $heading-color;
+        border-bottom: 2px solid $heading-color;
+        position: relative;
+        margin-top: 12px;
+        color:#00224b;
+  }
+}
+
