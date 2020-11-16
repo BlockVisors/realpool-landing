@@ -93,7 +93,7 @@ const RPHome = () => {
             {/* <EcoBack /> */}
             <TokenEcosystem />
             <PersonalPortfolio/>
-            <PersonalPortfolioTeam/>
+            {/* <PersonalPortfolioTeam/> */}
         
             {/* <Faq data={data} styles={styles} config={config} /> */}
             <Container>
